@@ -1,3 +1,9 @@
+var button = document.getElementsByClassName('playbutton');
+
+function change(){
+    button.innerHTML = "Stop";
+}
+
 let canvas = document.getElementById('canvas1');
 canvas.width = 800;
 canvas.height = 800;
