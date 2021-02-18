@@ -1,6 +1,6 @@
 let canvas = document.getElementById('canvas1');
 canvas.width = 800;
-canvas.height = innerHeight / 1.05;
+canvas.height = 800;
 
 
 let ctx = canvas.getContext("2d");
@@ -21,7 +21,7 @@ draw = function() {
     ctx.clearRect(0, 0, innerWidth, innerHeight);
 
     ctx.beginPath();
-    ctx.arc(innerWidth / 4, 768 / 1.7, 375, circum, 3 * Math.PI / 2);
+    ctx.arc(canvas.width / 2, canvas.height, 375, circum, 3 * Math.PI / 2);
     ctx.stroke();
 
     circum += dPos;
@@ -30,7 +30,7 @@ draw = function() {
 }
 function circle(circum){
     ctx.beginPath();
-    ctx.arc(innerWidth / 4, 768 / 1.7, 375, circum, 3 * Math.PI / 2);
+    ctx.arc(canvas.width / 2, canvas.height / 2, 375, circum, 3 * Math.PI / 2);
     ctx.stroke();
 }
 

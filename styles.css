@@ -6,23 +6,31 @@ body{
     background-color: #2e2e2e;
 }
 canvas{
-    position: absolute;
     z-index: 2;
     pointer-events: none;
-    margin: auto;
+    align-self: center;
     padding: 0;
-    top: 1%;
-    left: 25%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .main{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
 }
 
+
+
 .lofi{
-    display: flex;
     z-index: 0; 
     margin: 0;
     overflow: hidden;
@@ -31,11 +39,18 @@ canvas{
     width: 700px;
     height: 700px;
     border-radius: 500px;
+
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.lofivid{
-    text-align: center;
-}
+
 
 iframe{
     margin-top: -350px;
@@ -58,8 +73,8 @@ iframe{
     color: #ed4242;
 }
 
-.timercircle{
+/* .timercircle{
 
-}
+} */
 /* 
 I was tryna firgure out how to get lofiDoro to the center, but I don't rly have to, maybe put it in the center */
