@@ -10,10 +10,8 @@ canvas{
     pointer-events: none;
     align-self: center;
     padding: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 24.5vh;
-    display: block;
+    margin: auto;
+    margin-bottom: 0px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -26,7 +24,7 @@ canvas{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -36,16 +34,12 @@ canvas{
     margin: 0;
     overflow: hidden;
     padding: 0;
-
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     border-radius: 500px;
-
     padding: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 30vh;
-    display: block;
+    margin: auto;
+    margin-bottom: 24px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -58,8 +52,8 @@ canvas{
 
 
 iframe{
-    margin-top: -350px;
-    margin-left: -230px;
+    margin-top: -420px;
+    margin-left: -290px;
     width: 1350px;
     height: 1350px;
 
@@ -81,28 +75,26 @@ iframe{
 }
 
 .playOptions{
-    position: relative;
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 250px;
     border: 2px solid #ed4242;
-    margin-left: 10px;
-    left: 55%;
-    top: 50%;
-    transform: translateY(-50%);
+    margin: auto;
+    margin-top: 10px;
     text-align: center;
+    border-radius: 20px;
 }
 
-.playbutton{
+#playbutton{
     color: #ed4242;
-
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'B612', sans-serif;
-
     position: relative;
-    top: 75%;
+    top: 73%;
+    border-radius: 10px;
     border: 2px solid #ed4242;
     background: none;
     padding: 10px 30px;
+    
 }
 
 .playbutton:hover{

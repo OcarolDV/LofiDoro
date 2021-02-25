@@ -1,12 +1,6 @@
-var button = document.getElementsByClassName('playbutton');
-
-function change(){
-    button.innerHTML = "Stop";
-}
-
 let canvas = document.getElementById('canvas1');
-canvas.width = 800;
-canvas.height = 800;
+canvas.width = 650;
+canvas.height = 650;
 
 
 let ctx = canvas.getContext("2d");
@@ -36,7 +30,7 @@ draw = function() {
 }
 function circle(circum){
     ctx.beginPath();
-    ctx.arc(canvas.width / 2, canvas.height / 2, 375, circum, 3 * Math.PI / 2);
+    ctx.arc(canvas.width / 2, canvas.height / 2, 315, circum, 3 * Math.PI / 2);
     ctx.stroke();
 }
 

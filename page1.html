@@ -12,7 +12,7 @@
 
     <div class = main>
         <div class="playOptions">
-            <button class="playbutton" onclick= "change()" >Start</button>
+            <button id="playbutton" onclick= "change()" onmouseover="hover()" onmouseout="notHover()">Start</button>
         </div>
         <!-- <div class="menu">
             <div class="left">
@@ -22,7 +22,7 @@
         </div> -->
 
 
-        <canvas id="canvas1" width="800" height="800"></canvas>
+        <canvas id="canvas1" width="700" height="700"></canvas>
         <div class="lofi">
             
             <div>
@@ -42,5 +42,6 @@
 
     </div>
     <script src="script.js"></script>
+    <script src="buttonScript.js"></script>
 </body>
 </html>
