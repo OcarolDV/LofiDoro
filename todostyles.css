@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222222;
+    background-image: url("simplebg.png");
+    background-size: 2500px
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.todomain{
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.todoshell{
+    margin-top: 20px;
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+    background-color: #e25f5fee;
+    border-radius: 50px;
+}
+
+.todolist{
+    height: 550px;
+    width: 450px;
+}
+
+.titletodo{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 5px white;
+}
+.title{
+    margin: 1%;
+    font-size: 50px;
+    font-family: 'B612', sans-serif;
+    color: #ed4242;
+    
+
+}
+
+
+
+
+h1{
+    color: #ed4242;
+    font-size: 80px;
+    font-family: 'B612', sans-serif;
+    padding: 25px;
+}
+
+
+/* .menu{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 60%;
+} */
+
+.topnav {
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    overflow: hidden;
+    font-family: 'B612', sans-serif;
+    box-shadow: 2px 3px 6px 3px rgba(19, 19, 19, 0.2);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: ease-out 0.2s;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.137);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ed4242;
+    color: white;
+  }
