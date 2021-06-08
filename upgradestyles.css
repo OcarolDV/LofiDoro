@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222222;
+    background-image: url("simplebg.png");
+    background-size: 2500px
+}
+
+
+.main{
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+    width: 100vw;
+}
+
+
+
+.left{
+    width: 35%;
+    height: 100%;
+}
+
+.title{
+    margin: 1%;
+    font-size: 50px;
+    font-family: 'B612', sans-serif;
+    color: #ed4242;
+    
+
+}
+
+
+h1{
+    color: #ed4242;
+    font-size: 80px;
+    font-family: 'B612', sans-serif;
+    padding: 25px;
+}
+
+.topnav {
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    overflow: hidden;
+    font-family: 'B612', sans-serif;
+    box-shadow: 2px 3px 6px 3px rgba(19, 19, 19, 0.2);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: ease-out 0.2s;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.137);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ed4242;
+    color: white;
+  }
+
+.upgradeSection{
+    height: 800px;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.gold{
+    display: inline-block;
+    height: 600px;
+    width: 400px;
+    border-style: solid;
+    border-color: #ffef91;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 100px;
+    margin-right: 30px;
+    background-color: #ffe659;
+}
+
+.diamond{
+    display: inline-block;
+    height: 600px;
+    width: 400px;
+    border-style: solid;
+    border-color: #52DFFF;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: #94ebff;
+}

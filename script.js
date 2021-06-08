@@ -8,7 +8,8 @@ let ctx = canvas.getContext("2d");
 let note1 = document.getElementById("note");
 
 ctx.fillStyle = '#ed4242';
-ctx.strokeStyle = '#ed4242';
+// ctx.strokeStyle = '#ed4242';
+ctx.strokeStyle = 'white';
 ctx.lineWidth= 3;
 
 var circum = 3 * Math.PI / 2;
@@ -18,7 +19,7 @@ var startTime = Date.now();
 let frameDuration = 1000/fps;
 
 var loopStart = 0;
-var timeStart = 120 * 1000;
+var timeStart = 1200 * 1000;
 var dPos = ((Math.PI * 2) / (timeStart * 3/4) * frameDuration);
 var minutes;
 var seconds;
