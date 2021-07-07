@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222222;
+    background-image: url(/assets/images/simplebg.png);
+    background-size: 2500px
+}
+canvas{
+    z-index: 1;
+    pointer-events: none;
+    align-self: center;
+    padding: 0;
+    margin: auto;
+    position: relative;
+}
+
+.canvholder{
+    text-align: center;
+    height: 500px;
+}
+
+.main{
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+    width: 100vw;
+}
+
+
+.lofi{
+    z-index: 2; 
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    border-radius: 500px;
+    margin: auto;
+    position: relative;
+    top: -627px;
+}
+
+
+
+
+
+iframe{
+    margin-top: -420px;
+    margin-left: -290px;
+    width: 1350px;
+    height: 1350px;
+
+    left: 25%;
+}
+
+.left{
+    width: 35%;
+    height: 100%;
+}
+
+.title{
+    margin: 1%;
+    font-size: 50px;
+    font-family: 'B612', sans-serif;
+    color: #ed4242;
+    
+
+}
+
+.time{
+    width: 600px;
+    height: 150px;
+    border: 0px solid #ed4242;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fde7e7;
+    font-family: 'B612', sans-serif;
+    box-shadow: 2px 3px 6px 3px rgba(19, 19, 19, 0.2);
+}
+
+.maintime{
+    height: 120px;
+    background-color: #ed4242;
+    display: flex;
+    justify-content:space-between;
+}
+
+.timeleft{
+    
+    width: 402px;
+    height: 119px;
+
+    margin: 1px;
+    margin-right: -1px;
+}
+
+.navbar{
+
+    width: 200px;
+    height: 119px;
+    margin: 1px;
+
+}
+
+#play{
+    height: 60px;
+    width: 199px;
+    margin: 1px;
+    margin-top: 0;
+    background-color: #ed4242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #fde7e7;
+    font-family: 'B612', sans-serif;
+}
+#stop{
+    height: 58px;
+    width: 199px;
+    margin: 1px;
+    background-color: #ed4242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #fde7e7;
+    font-family: 'B612', sans-serif;
+}
+
+.workorrest{
+    height: 40px;
+    width: 601px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.timeleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work, #shortbreak, #longbreak{
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    width: 200px;
+    font-family: 'B612', sans-serif;
+    margin: 1px;
+    color: #fde7e7;
+    background-color: #ed4242;
+    border: none;
+}
+
+#work{
+    margin-left: 0px;
+}
+
+#work, #shortbreak{
+    margin-right: 0;
+}
+
+#playbutton:hover{
+    background: #ed4242;
+    color: #e1ebea;
+}
+
+
+h1{
+    color: #fde7e7;
+    font-size: 60px;
+    font-family: 'B612', sans-serif;
+    padding: 25px;
+}
+
+#work:hover, #shortbreak:hover, #longbreak:hover, #stop:hover, #play:hover{
+    background: #e94c4c;
+    color: #e1ebea;
+}
+
+
+/* .menu{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 60%;
+} */
+
+.topnav {
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    overflow: hidden;
+    font-family: 'B612', sans-serif;
+    box-shadow: 2px 3px 6px 3px rgba(19, 19, 19, 0.2);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: ease-out 0.2s;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.137);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ed4242;
+    color: white;
+  }

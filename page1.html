@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@1,700&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -12,15 +12,30 @@
     <div class="topnav">
         <a class="active" href="#home">LofiDoro</a>
         <a href='page1.html'>Lofi Timer</a>
-        <a href="#contact">To-Do-List</a>
+        <a href="todo.html">To-Do-List</a>
         <a href="#RPG">RPG</a>
         <a href= 'upgrade.html'>Upgrade</a>
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
       </div>
 
     <div class = main>
         <div class="time">
-            <h1 id="note">Time?</h1>
+            <div class="maintime" id="maintime">
+                <div class="timeleft" id= "timeleft">
+                    <h1 id="note">Click Play!</h1>
+                </div>
+                <div class="navbar" id= "navbar">
+                    <button id="play"><h3>PLAY</h3></button>
+                    <button id="stop"><h3>STOP</h3></button>       
+                </div>
+            </div>
+            
+            <div class="workorrest">
+                <button id="work"><p>Work</p></button>
+                <button id="shortbreak"><p>Short Break</p></button>
+                <button id="longbreak"><p>Long Break</p></button>
+            </div>
+            
             <!-- <button id="playbutton" onclick= "change()" onmouseover="hover()" onmouseout="notHover()">Start</button> -->
         </div>
         <!-- <div class="menu">
@@ -48,7 +63,7 @@
     <!-- <div class="playOptions">
         <button id="playbutton" onclick= "change()" onmouseover="hover()" onmouseout="notHover()">Start</button>
     </div> -->
-    <script src="script.js"></script>
+    <script src="/assets/scripts/script.js"></script>
     <script src="buttonScript.js"></script>
 </body>
 </html>

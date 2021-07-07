@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222222;
+    background-size: 2500px
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.todomain{
+    margin: 0;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+    color: aliceblue;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 250;
+    display: grid;
+    grid:
+        "header header header header" auto
+        ". lists  active . " auto /
+        1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
+
+
+}
+
+.pagetitle{
+    grid-area: header;
+    height: 0;
+    text-align: center;
+    font-size: calc(5vw + 1rem);
+    letter-spacing: 2px;
+    margin: -0.3em 0 0.5em;
+}
+
+.all-tasks{
+    grid-area: lists;
+}
+
+.todolist{
+    grid-area: active;
+}
+
+
+
+h1{
+    color: #ed4242;
+    font-family: 'B612', sans-serif;
+}
+
+.task-list{
+    font-size: 1.2rem;
+    line-height: 1.7;
+    list-style: circle;
+}
+
+.active-list{
+    font-weight: 700;
+}
+
+
+/* .menu{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 60%;
+} */
+
+.topnav {
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    overflow: hidden;
+    font-family: 'B612', sans-serif;
+    box-shadow: 2px 3px 6px 3px rgba(19, 19, 19, 0.2);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: ease-out 0.2s;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.137);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ed4242;
+    color: white;
+  }
